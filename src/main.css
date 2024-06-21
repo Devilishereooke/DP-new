@@ -1,0 +1,123 @@
+/* Sidebar */
+
+.sidebar-container{
+    width: 250px;
+    height: 550px;
+    position: fixed;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  .profile-pic{
+    width: 100%;
+  }
+  
+  .info-container{
+    display: flex;
+    flex-direction: column;
+    margin: 1.1rem 30px;
+  }
+  
+  .info-container > h3{
+    color: var(--primary-700);
+    font-size: 1.7rem;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .info-name{
+    color: var(--grey-400);
+    font-size: 17px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+  
+  .info-value{
+    color: var(--grey-700);
+  }
+  
+  .user-id{
+      position: absolute;
+      font-size: 17px;
+      bottom: 20px;
+  }
+  
+  /* main */
+  
+  .main-container{
+    margin: 0 340px;
+  }
+  
+  .welcome{
+    color: #713a21;
+    font-size: 34px;
+    font-weight: 500;
+  }
+  
+  .question{
+    color: var(--grey-500);
+    font-weight: 300;
+  }
+  
+  .latest--container{
+    width: 260px;
+    background-color: white;
+    padding: 17px;
+    border-radius: 9px;
+    margin-top: 23px;
+  }
+  
+  .latest--title{
+    color: var(--grey-500);
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 5px;
+    margin-left: 5px;
+  }
+  
+  .latest--reading--box{
+    background-color: #f5f0ea;
+    /* height: 100px; */
+    border-radius: 9px;
+    text-align: center;
+    /* padding: 5px; */
+  }
+  
+  .num--reading{
+    font-size: 90px;
+    color: var(--primary-700);
+  }
+  
+  .reading--unit{
+    color: var(--primary-700);
+    font-size: 23px;
+    font-weight: 500;
+    margin-left: 8px;
+  }
+  
+  .history--graph--container{
+    /* width: 260px; */
+    /* height: 180px; */
+    background-color: white;
+    padding: 17px;
+    border-radius: 9px;
+    margin-top: 28px;
+  }
+  
+  .graph--title{
+    color: #737373;
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 14px;
+    margin-left: 5px;
+  }
+  
+  .graph{
+    background-color: #f5f0ea;
+    border-radius: 9px;
+    padding: 10px;
+    display: flex;
+    height: 250px;
+    align-items: end;
+  }  
