@@ -219,4 +219,16 @@ ul {
   text-align: center;
 }
 
+/* alerts */
+
+.alert {
+  padding: 0.1rem 1.1rem;
+  margin-bottom: 0.3rem;
+  border-color: transparent;
+  border-radius: var(--borderRadius);
+  text-align: start;
+  letter-spacing: var(--letterSpacing);
+  color: var(--red-dark);
+  background: var(--red-light);
+}
 

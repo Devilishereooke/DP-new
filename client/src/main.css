@@ -104,6 +104,37 @@
     border-radius: 9px;
     margin-top: 28px;
   }
+
+  .history--graph--container.normal-width {
+    width: 100%; /* Adjust this to the normal width */
+    transition: width 0.3s ease; /* Smooth transition */
+}
+
+.history--graph--container.expanded-width {
+    width: 150%; /* Adjust this to the expanded width */
+    transition: width 0.3s ease; /* Smooth transition */
+}
+
+  .graph--top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.full--history{
+    background-color: #9a3a0d;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    height: 35px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.full--history:hover{
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.7);
+}
   
   .graph--title{
     color: #737373;
@@ -118,6 +149,6 @@
     border-radius: 9px;
     padding: 10px;
     display: flex;
-    height: 250px;
+    /* height: 250px; */
     align-items: end;
   }  

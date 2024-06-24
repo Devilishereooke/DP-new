@@ -4,7 +4,6 @@ import './main.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Login  from './pages/login'
 import Home  from './pages/dashboard/home'
-import AllHistory  from './pages/dashboard/allHistory'
 
 function App() {
   return (
@@ -13,7 +12,6 @@ function App() {
         {/* <Route path='/register' element={ <Register />}  /> */}
         <Route path='/' element={<Login />} />
         <Route path='/home' element={<Home />} />
-        <Route path='/allHistory' element={<AllHistory />} />
       </Routes>
     </BrowserRouter>
   );
